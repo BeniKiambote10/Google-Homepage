@@ -1,0 +1,166 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+  }
+  
+  Body{
+    font-size:14px;
+  }
+  /*HEADER SECTION*/
+  /* tagerts all the anchor tags*/
+  a{
+    margin:20px;
+    text-decoration: none;
+    color:black;
+  }
+  
+  a:hover{
+    text-decoration:underline;
+  }
+  
+  
+  .navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+  
+  }
+  
+  .header-nav{
+    display:flex;
+    align-items:center;
+    padding-right:20px;
+   
+  }
+  
+  .circle-shadow{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .circle-shadow:hover{
+    background-color:rgba(0,0,0,0.1);
+  }
+  
+  
+  
+  .user-icon span{
+    color:#3e74cc;
+    padding-right:20px;
+    margin-left:10px;  
+    margin-bottom:20px;
+    
+  }  
+  
+  
+  .user-icon{
+    background-color:#3e74cc;
+    border-radius:60%;
+    width:30px;
+    height:30px;
+   
+    
+  }
+  
+  
+  /*CONTENT SECTION*/
+  section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:15vh;
+  }
+  
+  .input-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    width:600px;
+    height:45px;
+    border:1px solid #c6c7c8;
+    border-radius:25px;
+    margin-bottom:20px;
+  }
+  
+  
+  .input-container > input{
+    flex-grow:20;
+    border:none;
+    outline:none;
+    margin-left:10px;
+    height:20px;
+  }
+  
+  .input-container:hover{
+    box-shadow:0 0 10px 0 lightgray;
+    
+  }
+  
+  i{
+    color:#a0a4a7;
+    margin-left:10px;
+  }
+  
+  .search-picture{
+    margin-right:-20px;
+   
+  }
+  
+  .content-img{
+    margin-bottom:20px;
+  }
+  
+  .my-button-container{
+    padding-top:10px;
+    
+  }
+  
+  
+  button{
+    background-color:#f0f0f0;
+    border-radius:5px;
+    border:none;
+    height:36px;
+    width:120px;
+  
+  }
+  
+  button:hover{
+    border:1px solid #c6c7c8;
+    box-shadow:0 0 10px 0 lightgray;
+  }
+  
+  /*FOOTER SECTION*/
+  footer{
+    background-color:#f2f2f2;
+    position:fixed;
+    bottom:0;
+    width:100vw;
+    height:7%;
+  }
+  
+  .footer-list-right{
+    margin-top:20px;
+    
+  }
+  
+  .footer-list-middle{
+    margin-top:20px;
+    
+  }
+  
+  .footer-list-left{
+    margin-top:20px;
+  
+  }
+  #leaf-img{
+    height:20px;
+    width:20px;
+  }
